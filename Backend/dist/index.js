@@ -10,7 +10,7 @@ app.delete("/user/:id", (req, res, next) => {
     console.log(req.params.id);
     return res.send("hello");
 });
-// tells apps the 
+// middleware that parses incoming requests with JSON payloads or any other file format(like forms)
 app.use(express.json());
 app.listen(5001, () => console.log('listening on port'));
 //# sourceMappingURL=index.js.map

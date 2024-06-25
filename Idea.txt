@@ -1,5 +1,0 @@
-- Normal text chatgpt SaaS App 
-- Launch 
-- voice chat 
-- image generation
-- AI tools integration
